@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* font-family: 'Overpass', sans-serif;
+ */
+ body{
+    min-height: 100vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color:  hsl(186, 14%, 43%);
+    background-size:cover;   
+    width: 100%;
+ }
+ .calculator-app{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    
+
+ }
