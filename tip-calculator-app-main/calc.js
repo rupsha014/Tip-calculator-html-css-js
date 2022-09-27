@@ -6,6 +6,18 @@
  const Tips=document.getElementsByClassName('Tip');
  const peop=document.getElementsByClassName('people');
  const sum=document.getElementsByClassName('sumation');
- const tip-am=document.getElementsByClassName('tip-amount');
- const tot-am=document.getElementsByClassName('total-amount');
+ const tipamt=document.getElementsByClassName('tip-amount');
+ const totamt=document.getElementsByClassName('total-amount');
+
+
+ let tipPercent=0;
+
+
+ for(let btn 0f Tips) {
+    btn.addEventListener('click',function() {
+        tipPercent=Number.parseInt(btn.textcontent);
+    });
+
+    }
+ 
  
